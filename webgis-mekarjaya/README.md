@@ -1,16 +1,90 @@
-# React + Vite
+# WebGIS Desa Mekarjaya
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+WebGIS interaktif untuk Desa Mekarjaya - Portal informasi geografis terintegrasi untuk Smart Village.
 
-Currently, two official plugins are available:
+## Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Peta Interaktif**: React Leaflet dengan OpenStreetMap
+- **Layer Control**: Aktif/nonaktifkan berbagai lapisan data
+- **Pencarian**: Cari lokasi berdasarkan nama, kategori, atau alamat
+- **Marker Clustering**: Kinerja optimal untuk banyak marker
+- **Dark Mode**: Tema gelap & terang
+- **Responsive Design**: Optimalkan untuk desktop, tablet, dan mobile
+- **GitHub Pages**: Deploy otomatis
 
-## React Compiler
+## Teknologi
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19 + Vite
+- React Leaflet + Leaflet.js
+- Tailwind CSS 4.x
+- Framer Motion
+- React Router DOM
+- OpenStreetMap
 
-## Expanding the Oxlint configuration
+## Setup Lokal
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+# Clone repository
+git clone https://github.com/nama-anda/webgis-mekarjaya.git
+cd webgis-mekarjaya
+
+# Install dependencies
+npm install
+
+# Development server
+npm run dev
+
+# Build untuk produksi
+npm run build
+
+# Deploy ke GitHub Pages (manual)
+npm run deploy
+```
+
+## Otomatis Deploy
+
+Workflow GitHub Actions sudah dikonfigurasi untuk deploy otomatis ke GitHub Pages setiap kali ada push ke branch `main`.
+
+## Struktur Folder
+
+```
+src/
+├── components/     # Komponen UI (Map, Sidebar, Navbar, dll)
+├── pages/          # Halaman (Home, Map, Profile, About, Contact, 404)
+├── layouts/        # Layout utama
+├── hooks/          # Custom hooks
+├── utils/          # Helper functions
+├── assets/         # Gambar dan ikon
+└── styles/         # CSS global
+public/
+├── data/           # File GeoJSON
+└── images/         # Gambar statis
+```
+
+## Data GeoJSON
+
+Semua data geografis disimpan di `public/data/`:
+- `sekolah.geojson` - Data sekolah
+- `umkm.geojson` - Data UMKM
+- `wisata.geojson` - Data wisata
+- `kesehatan.geojson` - Data kesehatan
+- `pemerintahan.geojson` - Data pemerintahan
+- `ibadah.geojson` - Data tempat ibadah
+- `agri.geojson` - Data pertanian
+- `jalan.geojson` - Data jalan
+- `batasdesa.geojson` - Batas desa
+
+## Konfigurasi GitHub Pages
+
+Setelah deploy pertama:
+1. Buka Settings → Pages
+2. Source: `gh-pages` branch → `/ (root)`
+3. URL akan tersedia di `https://nama-anda.github.io/webgis-mekarjaya/`
+
+## Kontribusi
+
+Silakan fork dan kirim pull request untuk perbaikan!
+
+## Lisensi
+
+MIT License - Dibuat untuk Desa Mekarjaya
