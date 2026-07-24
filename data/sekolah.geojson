@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sd-1",
+        "name": "SDN Mekarjaya 01",
+        "category": "Pendidikan",
+        description: "Sekolah Dasar Negeri 01 Mekarjaya, melayani pendidikan tingkat SD untuk warga dusun 1 dan 2.",
+        "address": "Jl. Pendidikan No. 15, Dusun 1, Desa Mekarjaya",
+        "coordinates": [106.7985, -6.5795],
+        "image": "/images/sdn-mekarjaya-01.jpg",
+        "phone": "(0251) 8645-2001",
+        "level": "SD",
+        "accreditation": "A",
+        "studentCount": 180,
+        "teacherCount": 12,
+        "operatingHours": "07:00 - 13:00 WIB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7985, -6.5795]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sd-2",
+        "name": "SDN Mekarjaya 02",
+        "category": "Pendidikan",
+        description: "Sekolah Dasar Negeri 02 Mekarjaya, melayani pendidikan tingkat SD untuk warga dusun 3 dan 4.",
+        "address": "Jl. Pendidikan No. 25, Dusun 3, Desa Mekarjaya",
+        "coordinates": [106.8045, -6.5778],
+        "image": "/images/sdn-mekarjaya-02.jpg",
+        "phone": "(0251) 8645-2002",
+        "level": "SD",
+        "accreditation": "A",
+        "studentCount": 150,
+        "teacherCount": 10,
+        "operatingHours": "07:00 - 13:00 WIB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8045, -6.5778]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "smp-1",
+        "name": "SMPN Mekarjaya",
+        "category": "Pendidikan",
+        description: "Sekolah Menengah Pertama Negeri Mekarjaya yang melayani pendidikan tingkat SMP untuk Kecamatan Cibungbulang.",
+        "address": "Jl. Pendidikan No. 50, Dusun 2, Desa Mekarjaya",
+        "coordinates": [106.8005, -6.5832],
+        "image": "/images/smpn-mekarjaya.jpg",
+        "phone": "(0251) 8645-3001",
+        "level": "SMP",
+        "accreditation": "B",
+        "studentCount": 320,
+        "teacherCount": 24,
+        "operatingHours": "07:00 - 14:30 WIB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8005, -6.5832]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tk-1",
+        "name": "TK Pertiwi Mekarjaya",
+        "category": "Pendidikan",
+        description: "Taman Kanak-kanak Pertiwi Melayani pendidikan anak usia dini di Desa Mekarjaya.",
+        "address": "Jl. Pendidikan No. 10, Dusun 1, Desa Mekarjaya",
+        "coordinates": [106.7998, -6.5788],
+        "image": "/images/tk-pertiwi.jpg",
+        "phone": "(0251) 8645-1501",
+        "level": "TK",
+        "accreditation": "B",
+        "studentCount": 60,
+        "teacherCount": 4,
+        "operatingHours": "07:30 - 11:30 WIB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7998, -6.5788]
+      }
+    }
+  ]
+}

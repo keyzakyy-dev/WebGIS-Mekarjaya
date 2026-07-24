@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umkm-1",
+        "name": "Kedai Kopi Mekar",
+        "category": "UMKM",
+        description: "Kedai kopi yang menggunakan bahan baku local dan menjadi tempat kumpul warga.",
+        "address": "Jl. Raya Mekarjaya No. 20",
+        "coordinates": [106.8013, -6.5820],
+        "image": "/images/umkm-kopi.jpg",
+        "products": ["Kopi Arabika", "Kopi Liberica", "Kopi Robusta"],
+        "owner": "Budi Santoso",
+        "employees": 2,
+        "dailySales": "Rp 500.000",
+        "operatingHours": "05:00 - 18:00 WIB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8013, -6.5820]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umkm-2",
+        "name": "Jualan Roti Buana Rasa",
+        "category": "UMKM",
+        description: "Jualan roti buatan sendiri yang populer di kalangan warga sekitar.",
+        "address": "Jl. Pendidikan No. 35, Dusun 2",
+        "coordinates": [106.8005, -6.5795],
+        "image": "/images/umkm-roti.jpg",
+        "products": ["Roti Teflon", "Pisang Pecel", "Kue Karamel"],
+        "owner": "Suci Rahayu",
+        "employees": 3,
+        "dailySales": "Rp 300.000",
+        "operatingHours": "04:00 - 15:00 WIB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8005, -6.5795]
+      }
+    }
+  ]
+}

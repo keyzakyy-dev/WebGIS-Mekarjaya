@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pertanian-1",
+        "name": "Lahan Pertanian Mekarjaya",
+        "category": "Pertanian",
+        description: "Lahan pertanian luas yang digunakan untuk produksi padi, sayur, dan buah.",
+        "area": "25 hektar",
+        "products": ["Padi", "Sayur Hijau", "Tomat", "Kembang Kapur"],
+        "farmerCount": 15,
+        "operatingHours": "06:00 - 18:00 WIB"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [106.7900, -6.5850],
+          [106.8000, -6.5850],
+          [106.8000, -6.5750],
+          [106.7900, -6.5750],
+          [106.7900, -6.5850]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wisata-3",
+        "name": "Air Terjun Curug Mekar",
+        "category": "Wisata",
+        description: "Air terjun yang menjadi destinasi utama wisata alam di Desa Mekarjaya.",
+        "address": "Dusun 4",
+        "coordinates": [106.7960, -6.5760],
+        "image": "/images/wisata-curug.jpg",
+        "entranceFee": "Rp 15.000",
+        "facilities": ["Pemandangan Air Terjun", "Jacuzzi", "Fasilitas Parkir", "Warung Makan", "Toilet"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7960, -6.5760]
+      }
+    }
+  ]
+}

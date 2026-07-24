@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kantor-desa-1",
+        "name": "Kantor Desa Mekarjaya",
+        "category": "Pemerintahan",
+        "description": "Kantor administrasi pusat Desa Mekarjaya yang melayani keperluan administrasi warga seperti KTP, KK, Akta Kelahiran, Kematian, dan surat keterangan lainnya.",
+        "address": "Jl. Raya Mekarjaya No. 1, Desa Mekarjaya, Kecamatan Cibungbulang, Kabupaten Bogor, Jawa Barat 16680",
+        "coordinates": [106.8012, -6.5812],
+        "image": "/images/kantor-desa.jpg",
+        "phone": "(0251) 8645-1234",
+        "email": "desa.mekarjaya@bogorkab.go.id",
+        "website": "https://mekarjaya.bogorkab.go.id",
+        "operatingHours": "Senin - Jumat: 08:00 - 16:00 WIB",
+        "services": ["KTP-e", "KK", "Akta Kelahiran/Kematian", "Surat Keterangan", "Pendaftaran Penduduk"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8012, -6.5812]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "balai-desa-1",
+        "name": "Balai Desa Mekarjaya",
+        "category": "Pemerintahan",
+        "description": "Balai desa yang digunakan untuk rapat warga, musyawarah desa, dan kegiatan kemasyarakatan lainnya.",
+        "address": "Jl. Raya Mekarjaya No. 2, Desa Mekarjaya",
+        "coordinates": [106.8015, -6.5815],
+        "image": "/images/balai-desa.jpg",
+        "phone": "(0251) 8645-1235",
+        "capacity": "200 orang",
+        "facilities": ["Sound System", "Proyektor", "AC", "Toilet"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8015, -6.5815]
+      }
+    }
+  ]
+}
