@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wisata-1",
+        "name": "Curug Mekarjaya",
+        "category": "Wisata",
+        description: "Air terjun indah yang menjadi daya tarik wisata utama di Desa Mekarjaya.",
+        "address": "Dusun 4, Desa Mekarjaya",
+        "coordinates": [106.7950, -6.5750],
+        "image": "/images/wisata-curug.jpg",
+        "entranceFee": "Rp 10.000",
+        "facilities": ["Parkir", "Toilet", "Warung Makan", "Gazebo"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7950, -6.5750]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wisata-2",
+        "name": "Kebun Raya Mekarjaya",
+        "category": "Wisata",
+        description: "Taman edukasi botani yang menyediakan berbagai jenis tanaman.",
+        "address": "Dusun 3, Desa Mekarjaya",
+        "coordinates": [106.8050, -6.5800],
+        "image": "/images/kebun-raya.jpg",
+        "entranceFee": "Rp 15.000",
+        "facilities": ["Gazebo", "Jalan Setapak", "Pusat Informasi"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8050, -6.5800]
+      }
+    }
+  ]
+}
