@@ -1,0 +1,86 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "puskesmas-1",
+        "name": "Puskesmas Mekarjaya",
+        "category": "Kesehatan",
+        description: "Pusat Kesehatan Masyarakat yang melayani rawat jalan, persalinan, imunisasi, dan pelayanan kesehatan masyarakat lainnya.",
+        "address": "Jl. Kesehatan No. 5, Dusun 1, Desa Mekarjaya",
+        "coordinates": [106.8025, -6.5805],
+        "image": "/images/puskesmas.jpg",
+        "phone": "(0251) 8645-5001",
+        "operatingHours": "24 Jam (IGD), Poli: 08:00 - 21:00 WIB",
+        "services": ["Umum", "Gigi", "KIA", "Imunisasi", "Laboratorium"],
+        "beds": 20,
+        "doctorCount": 5,
+        "nurseCount": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8025, -6.5805]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "posyandu-1",
+        "name": "Posyandu Mawar",
+        "category": "Kesehatan",
+        description: "Pos Pelayanan Terpadu untuk ibu hamil, balita, dan lansia di Dusun 1.",
+        "address": "Jl. Mawar No. 3, Dusun 1, Desa Mekarjaya",
+        "coordinates": [106.7992, -6.5798],
+        "image": "/images/posyandu.jpg",
+        "phone": "0812-3456-7890",
+        "operatingHours": "Setiap tanggal 15: 08:00 - 12:00 WIB",
+        "services": ["Penimbangan Balita", "Imunisasi", "Pemeriksaan Ibu Hamil", "Pemberian Vitamin"],
+        "kaderCount": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7992, -6.5798]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "posyandu-2",
+        "name": "Posyandu Melati",
+        "category": "Kesehatan",
+        description: "Pos Pelayanan Terpadu untuk ibu hamil, balita, dan lansia di Dusun 2.",
+        "address": "Jl. Melati No. 8, Dusun 2, Desa Mekarjaya",
+        "coordinates": [106.8008, -6.5840],
+        "image": "/images/posyandu.jpg",
+        "phone": "0812-3456-7891",
+        "operatingHours": "Setiap tanggal 16: 08:00 - 12:00 WIB",
+        "services": ["Penimbangan Balita", "Imunisasi", "Pemeriksaan Ibu Hamil"],
+        "kaderCount": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8008, -6.5840]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "apotek-1",
+        "name": "Apotek Mekar Sehat",
+        "category": "Kesehatan",
+        description: "Apotek yang menyediakan obat-obatan dan alat kesehatan untuk warga Desa Mekarjaya.",
+        "address": "Jl. Raya Mekarjaya No. 30, Dusun 1",
+        "coordinates": [106.8018, -6.5800],
+        "image": "/images/apotek.jpg",
+        "phone": "0813-2345-6789",
+        "operatingHours": "08:00 - 22:00 WIB",
+        "services": ["Obat Resep", "Obat Bebas", "Vitamin", "Alat Kesehatan"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8018, -6.5800]
+      }
+    }
+  ]
+}

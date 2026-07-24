@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "masjid-1",
+        "name": "Masjid Agung Mekarjaya",
+        "category": "Ibadah",
+        description: "Masjid terbesar di Desa Mekarjaya, tempat ibadah umat Muslim.",
+        "address": "Jl. Masjid Raya No. 1, Dusun 1",
+        "coordinates": [106.8010, -6.5810],
+        "image": "/images/masjid.jpg",
+        "capacity": 500,
+        "prayerTimes": "Subuh: 04:30, Dzuhur: 11:45, Ashar: 14:30, Maghrib: 17:45, Isya: 18:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8010, -6.5810]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gereja-1",
+        "name": "Gereja Katolik Santo Petrus",
+        "category": "Ibadah",
+        description: "Gereja Katolik di Desa Mekarjaya yang melayani umat paroki.",
+        "address": "Jl. Agama No. 5, Dusun 2",
+        "coordinates": [106.8020, -6.5830],
+        "image": "/images/gereja.jpg",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8020, -6.5830]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pura-1",
+        "name": "Pura Tri Hita Karana",
+        "category": "Ibadah",
+        description: "Pura Hindu untuk pemeluk agama Hindu di Desa Mekarjaya.",
+        "address": "Jl. Dharma No. 10, Dusun 3",
+        "coordinates": [106.8030, -6.5850],
+        "image": "/images/pura.jpg",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8030, -6.5850]
+      }
+    }
+  ]
+}
